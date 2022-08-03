@@ -1,0 +1,18 @@
+:root {
+    --primary : #61E697;
+    --pure : #FFFFFF;
+    --dark : #232326;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*#background-muesli {
+    background-image: url(images/julian-hochgesang-1YsJ-d45ud0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}*/
