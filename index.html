@@ -13,6 +13,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
+     <header class="header">
+            <!-- Logo -->
+            <a href="#" class="logo">JOM</a>
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <!-- Menu -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="#" target="_blank">Über uns</a></li>
+                    <li><a href="#comment">Kommentieren</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+    
     <!--Jumbotron-->
     <div
       class="jumbotron jumbotron-fluid">
@@ -370,7 +388,17 @@
       </div>
     </div>
     <!--Third Row of recipies ends-->
-
+    
+    <footer>
+      <div class="container">
+      <label for="comment" name="comment">ADD YOUR COMMENT BELOW-</label>
+      <textarea id="comment"></textarea>
+      <button id="addComments">Add</button>
+         <div id="allComments"></div>
+      </div>           
+    </footer> 
+    
+    <script src="index.js"></script>
     <script
       src="https://kit.fontawesome.com/95e8dce4e7.js"
       crossorigin="anonymous"
