@@ -28,14 +28,14 @@ function addComment(ev) {
         commentText = document.getElementById('comment').value;
         document.getElementById('comment').value = '';
         textBox.innerHTML = commentText;
-        textBox.style.backgroundColor = "cornflowerblue";
+        textBox.style.backgroundColor = "#C7D36F";
         wrapDiv.append(textBox, replyButton, likeButton, deleteButton);
         commentContainer.appendChild(wrapDiv);
     } else {
         wrapDiv = ev.target.parentElement;
         commentText = ev.target.parentElement.firstElementChild.value;
         textBox.innerHTML = commentText;
-        textBox.style.backgroundColor = "paleturquoise";
+        textBox.style.backgroundColor = "#C7D36F";
         wrapDiv.innerHTML = '';
         wrapDiv.append(textBox, replyButton, likeButton, deleteButton);
     }

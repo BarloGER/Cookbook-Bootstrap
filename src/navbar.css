@@ -1,6 +1,6 @@
 :root {
     --white: #f9f9f9;
-    --black: #36383F;
+    --green: #9EB23B;
     --gray: #85888C;
 } /* variables*/
 
@@ -33,7 +33,7 @@ ul {
 /* Header Start */
 
 .header {
-    background-color: var(--black);
+    background-color: var(--green);
     box-shadow: 1px 1px 5px 0px var(--gray);
     position: sticky;
     top: 0;
@@ -55,7 +55,7 @@ ul {
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: var(--black);
+    background-color: var(--green);
     overflow: hidden;
 
 }
@@ -181,18 +181,18 @@ input[type=text]:invalid {
     margin-left: 25%;
 }
 
-.container > label {
+.footer-container > label {
    text-align: center;
 }
 
 #comment {
-    background-color: cornflowerblue;
+    background-color: #FCF9C6;
 }
 
 #addComments {
     width: 20%;
     padding: 5px;
-    background-color: darkblue;
+    background-color: #b1b1b1;
     color: white;
     align-self: center;
 }
@@ -200,6 +200,6 @@ input[type=text]:invalid {
 .wrapper > button {
     margin-right: 5px;
     padding: 5px;
-    background-color: darkblue;
+    background-color: #b1b1b1;
     color: white;
 }
