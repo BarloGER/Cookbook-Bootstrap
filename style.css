@@ -1,5 +1,5 @@
 :root {
-    --primary : #61E697;
+    --primary : #9EB23B;
     --pure : #FFFFFF;
     --dark : #232326;
 }
@@ -21,8 +21,18 @@
 } 
 
 #title-bar {
-    background-color: #61E697;
-    opacity: 70%;
+    background-color: var(--primary);
+    opacity: 90%;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.recipe {
+    transition: all .1s ease-in;
+}
+
+.recipe:hover {
+    top: -2px;
 }
