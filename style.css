@@ -35,4 +35,9 @@
         justify-content: center;
     }
 
+    .full-size-link {
+        justify-content: center;
+        width: 100%;
+    }
+
 }
