@@ -27,19 +27,10 @@
                 <ul class="menu">
                     <li><a href="index.html">Home</a> </li>
                     <li><a href="#" target="_blank">Über uns</a></li>
-                    <li><a href="#comment">Kommentieren</a></li>
                 </ul>
             </nav>
     </header>
-    
-    <!--Jumbotron-->
-    <aside class="jumbotron jumbotron-fluid" id="background-muesli">
-      <article class="bg-secondary text-white text-center my-5">
-        <h1 class="display-4">JOM JOM Foods</h1>
-        <p>Leckere, schnelle und gesunde Frühstücksküche</p>
-      </article>
-    </aside>
-
+  
     <main class="container">
         <div class="card shadow">
             <img
@@ -49,20 +40,28 @@
             <div class="card-body">
               <h2 class="card-title">Schoko-Bananen Granola</h2>
               <div class="row">
-              <div class="col-2">
-              <div class="row mt-4">
-                <div class="col ">
-                    <i class="fa-solid fa-hourglass-half"></i>
+                <div class="col-lg-2 col-md-4">
+                <div class="row mt-4">
+                  <table class="col table">
+                      <thead>
+                        <tr>
+                          <th>
+                            <i class="fa-solid fa-hourglass-half"></i>
+                          </th>
+                          <th class="col">Stufe</th>
+                        </tr>
+                      <tbody>
+                        <tr>
+                          <td>50 Min</td>
+                          <td>Einfach</td>
+                        </tr>
+                      </tbody>
+                      </thead>
+                </table>
                 </div>
-                <div class="col">Stufe</div>
               </div>
-              <div class="row">
-                <div class="col">5 Min</div>
-                <div class="col">Einfach</div>
-              </div>
-            </div>
-            <div class="col-4 m-4">
-              <div class="row">
+              <div class="col-md-8 m-4 col-sm-11 col-lg-4">
+                <div class="row">
                 <table class="col table table-striped table-hover">
                     <thead class="table-secondary">
                       <tr>
@@ -75,43 +74,72 @@
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>Erdbeeren</td>
-                        <td>100</td>
+                        <td>Aquafaba</td>
+                        <td>80</td>
                         <td>g</td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Ananas</td>
-                        <td>100</td>
+                        <td>Haferflocken</td>
+                        <td>250</td>
                         <td>g</td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
-                        <td>Orangensaft</td>
-                        <td>250</td>
-                        <td>ml</td>
+                        <td>Ahornsirup</td>
+                        <td>50</td>
+                        <td>g</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Rohkakao</td>
+                        <td>20</td>
+                        <td>g</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Banane</td>
+                        <td>1</td>
+                        <td>Stück</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Salz</td>
+                        <td>1</td>
+                        <td>Prise</td>
                       </tr>
                     </tbody>
                   </table>
               </div>
             </div>
-            <div class="col-4 m-4">
-                <h3>Beschreibung</h3>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora praesentium sequi quas quo, nisi repudiandae earum laboriosam. Id illum et perspiciatis tenetur ducimus eos consequuntur aspernatur, cum ipsam consectetur iste, voluptate magni quibusdam quae ea. Possimus non, ut at nobis cupiditate nihil illo nesciunt quod ducimus, ad, dolor excepturi impedit!
-                </p>
+            <div class="col-lg-4 m-4 col-sm-11">
+                <h3>Zubereitung</h3>
+               <ol>
+                <li>Den Ofen auf 180°C Umluft vorheizen</li>
+                <li>Das Aquafaba mit dem elektrischen Mixer so lange schlagen, bis sich langsam Spitzen bilden (muss aber nicht komplett steif geschlagen werden).</li>
+                <li>Dann zu den anderen Zutaten (Haferflocken, Ahornsirup, Kakao, Banane und Salz) hinzufügen und alles gut vermengen.</li>
+                <li>Die Masse auf ein Backblech geben bei 180°C Umluft ca. 30 Minuten lang backen oder bis das Granola zum Großteil knusprig geworden ist (die Masse wird nach dem Abkühlen noch etwas knuspriger!).</li>
+                <li>Gelegentlich die Masse umrühren damit sie von allen Seiten gleichmäßig bräunen kann.</li>
+                <li>Anschließend abkühlen lassen und mit Bananenscheiben und Erdnussmus anrichten.</li>
+               </ol>
             </div>
         </div>
-              <div class="row">
-                <a href="index.html"><button type="button" class="btn btn-success mt-3">
-                 Zurück
-                </button></a>
-              </div>
+        <div class="col">
+          <button role="button" type="button" class="btn btn-success mt-3" onclick="getURL()"><i class="fa-solid fa-share"></i> share
+          </button>
+        </div>
     </main>
+
+    <footer>
+      <ul class="bottom-bar">
+        <li><a href="#">copyright</a></li>
+      </ul>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/95e8dce4e7.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
 </body>
 </html>
