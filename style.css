@@ -29,10 +29,21 @@
     color: rgba(255, 255, 255, 0.90);
 }
 
-.recipe {
-    transition: all .1s ease-in;
+footer {
+    height: 100px;
+    background-color: #9EB23B;
+    align-items: center;
 }
 
-.recipe:hover {
-    top: -2px;
+a {
+    display: inline-block;
+    margin-top: 40px;
+    color: var(--pure);
 }
+
+a:hover{
+    background-color: transparent;
+    color: var(--gray);
+}
+
+
