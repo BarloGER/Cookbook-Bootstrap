@@ -34,7 +34,6 @@ ul {
 
 .header {
     background-color: var(--green);
-    box-shadow: 1px 1px 5px 0px var(--gray);
     position: sticky;
     top: 0;
     width: 100%;
@@ -56,10 +55,9 @@ ul {
     height: 100%;
     position: fixed;
     background-color: var(--green);
-
-
-
+    overflow: hidden;
 }
+
 .menu a {
     display: block;
     padding: 10px 10px;
@@ -83,7 +81,7 @@ ul {
     cursor: pointer;
     float: right;
     padding: 10px 10px;
-    margin: 45px 10px;
+    margin: 45px 10px 0 0;
 }
 
 .hamb-line {
@@ -143,7 +141,7 @@ ul {
 /* Responsiveness */
 @media (min-width: 768px) {
     .nav{
-        height: 100%;
+        max-height: none;
         top: 0;
         position: relative;
         float: right;
