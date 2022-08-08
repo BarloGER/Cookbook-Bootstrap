@@ -56,7 +56,7 @@ ul {
     height: 100%;
     position: fixed;
     background-color: var(--green);
-    overflow: hidden;
+
 
 
 }
@@ -143,22 +143,24 @@ ul {
 /* Responsiveness */
 @media (min-width: 768px) {
     .nav{
-        max-height: none;
+        height: 100%;
         top: 0;
         position: relative;
         float: right;
         width: fit-content;
     }
-    .menu li{
+
+    .menu li {
         float: left;
     }
-    .menu a:hover{
+
+    .menu a:hover {
         background-color: transparent;
         color: var(--gray);
 
     }
 
-    .hamb{
+    .hamb {
         display: none;
     }
 }
